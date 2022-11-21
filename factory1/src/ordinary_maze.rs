@@ -1,4 +1,4 @@
-use game::{Room, MazeGame};
+use crate::game::{Room, MazeGame};
 
 #[derive(Clone)]
 pub struct OrdinaryRoom {
@@ -25,7 +25,7 @@ impl OrdinaryMaze {
     pub fn new() -> Self {
         Self {
             rooms : vec![
-                OrdinaryRoom:new(11),
+                OrdinaryRoom::new(11),
                 OrdinaryRoom::new(22),
             ]
         }
@@ -34,7 +34,7 @@ impl OrdinaryMaze {
 
 impl MazeGame for OrdinaryMaze {
     type RoomImpl = OrdinaryRoom;
-    fn rooms(&self) -> Vec<self::RoomImpl> {
+    fn rooms(&self) -> Vec<Self::RoomImpl> {
         let mut rooms = self.rooms.clone();
         rooms.reverse();
         rooms

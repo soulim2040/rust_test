@@ -1,8 +1,13 @@
-use game::{Room, MazeGame};
-use magic_maze::MagicMaze;
-use ordinary_maze::OrdinaryMaze;
+mod game;
+mod magic_maze;
+mod ordinary_maze;
+
+use crate::magic_maze::MagicMaze;
+use crate::ordinary_maze::OrdinaryMaze;
 fn main() {
     let ordin = OrdinaryMaze::new();
-    game:run(ordin);
+    game::run(ordin);
 
+    let magic = MagicMaze::new();
+    game::run(magic);
 }

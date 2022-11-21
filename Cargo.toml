@@ -1,4 +1,4 @@
 [workspace]
 members = [
-	"rust_1","factory1"
+	"rust_1","factory1", "factory2", "prototype", "builder", "abstract-factory","vec_sort", "singleton_once","lazy_test"
 ]
