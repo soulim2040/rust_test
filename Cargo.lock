@@ -7,6 +7,10 @@ name = "abstract-factory"
 version = "0.1.0"
 
 [[package]]
+name = "adapter1"
+version = "0.1.0"
+
+[[package]]
 name = "ahash"
 version = "0.7.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -42,6 +46,10 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "bef38d45163c2f1dde094a7dfd33ccf595c92905c8f8f4fdc18d06fb1037718a"
 
 [[package]]
+name = "bridge1"
+version = "0.1.0"
+
+[[package]]
 name = "builder"
 version = "0.1.0"
 
@@ -61,6 +69,10 @@ version = "0.1.0"
 dependencies = [
  "cursive",
 ]
+
+[[package]]
+name = "composite1"
+version = "0.1.0"
 
 [[package]]
 name = "crossbeam-channel"
@@ -178,6 +190,10 @@ dependencies = [
  "quote",
  "syn",
 ]
+
+[[package]]
+name = "decorator1"
+version = "0.1.0"
 
 [[package]]
 name = "enum-map"
@@ -314,6 +330,10 @@ dependencies = [
  "wasi",
  "windows-sys",
 ]
+
+[[package]]
+name = "moment1"
+version = "0.1.0"
 
 [[package]]
 name = "num"
